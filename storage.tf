@@ -1,6 +1,6 @@
 # Create random 8 digit hex code
 resource "random_id" "rando" {
-  byte_length = 4
+  byte_length = 6
 }
 
 
